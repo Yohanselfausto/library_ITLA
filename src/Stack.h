@@ -16,6 +16,13 @@ class Stack
 		void push(Element*);
 		Element* pop();
 		Stack();
+		
+		private:
+ 	Element* _last;
+ public:
+ 	void push(Element*);
+ 	Element* pop();
+ 	Stack();
 };
 
 #endif /* STACK_H_ */
